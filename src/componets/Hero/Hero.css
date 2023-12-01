@@ -1,0 +1,83 @@
+.hero {
+    background-image: url('../Asserts/images/event/abstract-1846226.jpg');
+    background-position-y: bottom;
+    background-size: 100% 100%;
+    height: 100VH;
+    width: auto;
+
+}
+
+.hero-left {
+    width: 50%;
+    padding-left: 10%;
+    float: left;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .hero-left h1 {
+    margin-top: 30px;
+    font-size: 4.3rem;
+    margin-bottom: 10px;
+    line-height: 70px;
+    background: #FFABE9;
+    background: radial-gradient(ellipse farthest-corner at bottom left, #FFABE9 37%, #FFF4BA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero .hero-left p {
+    font-size: 1.2rem;
+    width: 55%;
+    color: rgb(218, 218, 218);
+
+}
+
+.hero .hero-left h5 {
+    color: rgb(230, 230, 230);
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.hero .hero-left .Email-box {
+    display: flex;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.hero .hero-left .Email-box input {
+    width: 300px;
+    background-color: rgb(21, 21, 78);
+    height: 60px;
+    border-radius: 7px 0 0px 7px;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.hero .hero-left .Email-box button {
+    width: 110px;
+    border-radius: 0 7px 7px 0;
+    border: none;
+    height: 60px;
+    background-color: rgb(255, 102, 0);
+    color: rgb(207, 207, 207);
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+
+.hero .hero-left .People {
+    display: flex;
+}
+
+.hero .hero-left .People p {
+    font-size: 0.9rem;
+}
+
+.hero .hero-left .People img {
+    width: 200px;
+    margin-right: 5px;
+}

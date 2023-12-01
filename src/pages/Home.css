@@ -1,0 +1,209 @@
+.second {
+    width: 100%;
+    height: auto;
+    /* background: rgb(41, 60, 160);
+    background: linear-gradient(131deg, rgba(41, 60, 160, 1) 0%, rgba(9, 24, 66, 1) 7%); */
+    /* background-image: linear-gradient(to right bottom, #002a69, #002260, #011a56, #01114d, #020744); */
+    background-image: linear-gradient(130deg,
+            hsl(240deg 75% 32%) 0%,
+            hsl(241deg 74% 29%) 3%,
+            hsl(242deg 73% 27%) 5%,
+            hsl(244deg 72% 24%) 8%,
+            hsl(245deg 70% 22%) 12%,
+            hsl(246deg 69% 19%) 17%,
+            hsl(247deg 67% 17%) 25%,
+            hsl(248deg 66% 14%) 38%,
+            hsl(253deg 68% 12%) 59%,
+            hsl(261deg 78% 9%) 100%);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.second .second-icons {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 90px;
+    margin-bottom: 10%;
+}
+
+.second .second-icons img {
+    height: 35px;
+}
+
+.second .second-box {
+    width: 75%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aqua;
+    background-image: linear-gradient(130deg,
+            hsl(240, 72%, 43%) 0%,
+            hsl(241, 69%, 40%) 3%,
+            hsl(242, 70%, 35%) 5%,
+            hsl(244, 67%, 33%) 8%,
+            hsl(245, 66%, 33%) 12%,
+            hsl(246, 66%, 27%) 17%,
+            hsl(247, 64%, 29%)25%,
+            hsl(248, 65%, 29%) 38%,
+            hsl(253, 58%, 34%) 59%,
+            hsl(262, 55%, 43%) 100%);
+
+    box-shadow: 2px 3px 4px 2px;
+}
+
+.second .second-box .box1 {
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: left;
+}
+
+.second .second-box .box1 .box-title {
+    color: white;
+    width: 27%;
+}
+
+.second .second-box .box1 .box-title h3 {
+    width: 70%;
+}
+
+.second .second-box .box1 .box-pragraph {
+    color: rgb(208, 202, 202);
+    width: 73%;
+    display: flex;
+    justify-content: right;
+    /* border: 2px solid pink; */
+    padding-left: 6%;
+}
+
+.second .second-box .box2 {
+    width: 100%;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.second .second-box .box2 h1 {
+    color: white;
+    background: rgb(148, 39, 238);
+    background: radial-gradient(ellipse farthest-corner at bottom left, #9a1be4 37%, #f4d94f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 55%;
+}
+
+.second .second-box .box2 h5 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    width: 30%;
+    text-align: right;
+    padding-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.second .second-box .box3 {
+    width: 100%;
+    /* border: 3px solid wheat; */
+    display: flex;
+}
+
+.second .second-box .box3 .box-conten {
+    width: 70%;
+    /* border: 3px solid red; */
+    padding: 2%;
+}
+
+.second .second-box .box3 .box-conten h2 {
+    color: white;
+}
+
+.second .second-box .box3 .box-conten h5 {
+    color: rgb(179, 179, 179);
+}
+
+.second .second-end {
+    width: 75%;
+    /* border: 2px solid red; */
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second .second-end .end-title {
+    width: 30%;
+    background: rgb(155, 78, 219);
+    background: radial-gradient(ellipse farthest-corner at center left, #9b3fd1 37%, #dcbf2c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.second .second-end .end-topics {
+    width: 60%;
+}
+
+.second .second-end .end-topics .topic {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    /* border: 2px solid wheat; */
+    margin: 2%;
+    color: white;
+}
+
+.second .second-end .end-topics .topic .topic-title {
+    width: 30%;
+}
+
+.second .second-end .end-topics .topic .topic-desc {
+    width: 60%;
+    color: rgba(34, 168, 225, 0.881);
+}
+
+.second .notice {
+    width: 75%;
+    /* border: 2px solid #9b3fd1; */
+    color: rgb(243, 116, 78);
+}
+
+.second .Early-request {
+    width: 76%;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    margin-bottom: 1%;
+    background-color: #fb9461;
+    background-image: linear-gradient(290deg, #fb9461 20%, #f93ac6 78%);
+    border-radius: 15px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 30px;
+    align-items: center;
+    color: white;
+}
+
+.second .Early-request button {
+    height: 50px;
+    width: 170px;
+    border-radius: 75px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}

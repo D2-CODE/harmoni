@@ -1,0 +1,205 @@
+.about-hero {
+    background-image: url('../componets/Asserts/images/breadcrumb/0.breadcrumb-bg.jpg');
+    background-size: 100% 100%;
+    height: 50vh;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 9px;
+    background-position: center;
+}
+
+.about-hero p {
+    line-height: 25px;
+    /* word-spacing: 2px; */
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: azure;
+    font-size: 1rem;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 1px;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    color: rgb(255, 196, 0);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.about-hero h2 {
+    font-size: 3rem;
+    /* color: rgb(255, 196, 0); */
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about-hero ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1rem;
+    margin-right: 35px;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.about-desc {
+    height: auto;
+    background-image: linear-gradient(130deg,
+            hsl(240deg 75% 32%) 0%,
+            hsl(241deg 74% 29%) 3%,
+            hsl(242deg 73% 27%) 5%,
+            hsl(244deg 72% 24%) 8%,
+            hsl(245deg 70% 22%) 12%,
+            hsl(246deg 69% 19%) 17%,
+            hsl(247deg, 67%, 14%) 25%,
+            hsl(247deg, 67%, 18%) 38%,
+            hsl(254deg, 66%, 15%) 59%,
+            hsl(261deg, 70%, 16%) 100%);
+    padding-top: 2%;
+    color: aliceblue;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about-desc .about-ms {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.about-desc .about-ms .about-ms-title {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    gap: 0px;
+}
+
+.about-desc .about-ms .about-ms-title h1 {
+    width: 60%;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.about-desc .about-ms .about-ms-title p {
+    margin-bottom: 0;
+}
+
+.about-desc .about-ms .about-ms-des {
+    width: 70%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-desc .about-ms .about-ms-des div {
+    /* border: 2px solid red; */
+    width: 55%;
+}
+
+.about-desc .about-ms .about-ms-des div h1 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.about-desc .about-ms .about-ms-des div p {
+    width: 80%;
+    color: rgb(211, 208, 208);
+    font-size: 1.2rem;
+}
+
+.about-desc .about-ms .about-ms-des div h4 {
+    width: 80%;
+    color: rgb(228, 228, 228);
+    font-size: 1.2rem;
+}
+
+.about-desc .about-award {
+    width: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    gap: 5%
+}
+
+.about-desc .about-award .award-pic {
+    background: url(../componets/Asserts/images/about/company-age-bg.jpg);
+    width: 30%;
+    height: 500px;
+    background-size: 100% 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-desc .about-award .award-pic img {
+    height: 400px;
+}
+
+.about-desc .about-award .award-desc h1 {
+    margin-top: 0;
+    color: rgba(240, 248, 255, 0.641);
+}
+
+.about-desc .about-award .award-desc p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(240, 248, 255, 0.641);
+}
+
+.about-desc .about-award .award-desc .award {
+    display: flex;
+
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.about-desc .about-award .award-desc .award .award-detail {
+    width: 60%;
+}
+
+.about-desc .about-award .award-desc .award h1 {
+    color: rgb(255, 183, 0);
+    font-size: 2rem;
+}
+
+.about-desc .about-award .award-desc .award .award-detail {
+    color: rgba(255, 255, 255, 0.463);
+    margin-left: 3%;
+}
+
+.about-desc .about-award .award-desc .award .award-detail h1 {
+    color: rgba(255, 255, 255, 0.452);
+}
+
+.about-desc .boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+.about-desc .boxes .box {
+    background-color: aliceblue;
+    color: black;
+    width: 23%;
+    text-align: center;
+}
