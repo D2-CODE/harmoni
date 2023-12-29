@@ -12,7 +12,7 @@ const Contact = () => {
             </div>
             <div className='contact-form d-flex'>
                 <img className='' src={hadset} alt='img' />
-                <div className='contact w-50'>
+                <div className='contact'>
                     <div className='icon'> <i class="fa-solid fa-lock"></i>
                     </div>
                     <h3>Contact Us</h3>

@@ -31,7 +31,7 @@ const Gallary = () => {
             </div>
             <div className='gallary-card'>
                 <div className='card-section container  w-100'>
-                    <div class="row row-cols-2 row-cols-md-2">
+                    <div class="row row-cols-auto row-cols-md-2">
                         <div className='col collom'>
                             <div className='card'>
                                 <img src={img1} alt='img 1' />

@@ -272,7 +272,7 @@
 }
 
 
-@media (max-width:420px) {
+@media (max-width:430px) {
     .about-desc .about-ms .about-ms-des {
         flex-direction: column;
     }
@@ -317,5 +317,11 @@
 
     .about-desc .boxes .box {
         width: auto;
+        height: auto;
+        /* text-align: center; */
+    }
+
+    .about-desc .boxes .box p {
+        text-align: center;
     }
 }

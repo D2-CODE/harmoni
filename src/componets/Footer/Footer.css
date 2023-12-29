@@ -107,7 +107,7 @@
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:435px) {
 
     .footer .footer-title h1 span {
         font-size: 1.4rem;
@@ -134,5 +134,9 @@
 
     .footer .footer-menu .sub-menu {
         margin-top: 50px;
+    }
+
+    .footer h5 {
+        font-size: small;
     }
 }

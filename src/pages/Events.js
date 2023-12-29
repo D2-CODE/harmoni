@@ -14,6 +14,8 @@ const Events = () => {
         navigate('/events/wedding')
     }
 
+
+
     return (
         <>
             <div className='contact-hero'>
@@ -41,14 +43,6 @@ const Events = () => {
                                     <p className='text-center' onClick={wedding}>Wedding</p>
                                 </div>
                             </div>
-                            <div className='card'>
-                                <div className='card-img-top'>
-                                    <img src={img2} alt='hii' />
-                                </div>
-                                <div className='card-title'>
-                                    <p className='text-center'>Wedding</p>
-                                </div>
-                            </div>
                         </div>
                         <div className='col'>
                             <div className='card'>
@@ -67,6 +61,18 @@ const Events = () => {
                                 </div>
                                 <div className='card-title'>
                                     <p className='text-center'>sports event</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row row-cols-3'>
+                        <div className='col'>
+                            <div className='card'>
+                                <div className='card-img-top'>
+                                    <img src={img2} alt='hii' />
+                                </div>
+                                <div className='card-title'>
+                                    <p className='text-center'>Wedding</p>
                                 </div>
                             </div>
                         </div>

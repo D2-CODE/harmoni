@@ -52,6 +52,20 @@
     text-transform: uppercase;
 }
 
+.card-sectio .card {
+    width: 99%;
+}
+
+
+
 .card-img-top {
     overflow: hidden;
+}
+
+@media (max-width:430px) {
+    .category ul {
+        flex-direction: column;
+        padding-left: 0;
+        gap: 10px;
+    }
 }

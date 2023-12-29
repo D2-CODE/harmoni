@@ -118,3 +118,24 @@
 .map iframe {
     width: 100%;
 }
+
+@media (max-width:901px) {
+    .contact-form img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:440px) {
+    .contact {
+        width: auto;
+        border-radius: 10px;
+    }
+}
