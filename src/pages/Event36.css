@@ -1,0 +1,18 @@
+.card-section2 {
+    background: linear-gradient(130deg,
+            hsl(240deg 75% 32%) 0%,
+            hsl(241deg 74% 29%) 3%,
+            hsl(242deg 73% 27%) 5%,
+            hsl(244deg 72% 24%) 8%,
+            hsl(245deg 70% 22%) 12%,
+            hsl(246deg 69% 19%) 17%,
+            hsl(247deg, 67%, 14%) 25%,
+            hsl(247deg, 67%, 18%) 38%,
+            hsl(254deg, 66%, 15%) 59%,
+            hsl(261deg, 70%, 16%) 100%);
+    /* text-transform: uppercase; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

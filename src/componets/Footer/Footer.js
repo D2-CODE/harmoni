@@ -14,10 +14,11 @@ const Footer = () => {
                     <div className='menu-list'>
                         <img src={rectlogo} alt='img'></img>
                         <p>Crechterwood K12 182 DK Alknjkcb,<br />All Right Reserved</p>
-
-                        <h6>Get in Touch</h6>
-                        <p>Crechterwood K12 182 DK Alknjkcb<br />
-                            085-132567<br />info@payment.net</p>
+                        <div className='sub-menu'>
+                            <h6>Get in Touch</h6>
+                            <p>Crechterwood K12 182 DK Alknjkcb<br />
+                                085-132567<br />info@payment.net</p>
+                        </div>
 
                     </div>
                     <div className='menu-list'>

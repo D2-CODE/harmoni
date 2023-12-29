@@ -1,0 +1,44 @@
+.card {
+    gap: 0;
+    border-radius: 3%;
+}
+
+.card .card-body {
+    margin: 0;
+    background: url(../componets//Asserts/images/iamge.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-body .card-title {
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 1.5%;
+    border-radius: 30px;
+    background-color: rgba(158, 157, 157, 0.252);
+}
+
+.card .card-body .card-title p {
+    margin: 0;
+    margin-left: 1.5%;
+}
+
+.card .card-body .card-text {
+    display: flex;
+    gap: 10px;
+    height: 10%;
+    padding: 1.5%;
+    align-items: center;
+}
+
+.card .card-body .card-text p {
+    margin: 0;
+    /* line-height: 100%; */
+}
+
+.fa-location-dot {
+    font-size: 1.2rem;
+}

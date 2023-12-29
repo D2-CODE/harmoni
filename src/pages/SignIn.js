@@ -2,8 +2,16 @@ import React from 'react'
 // import Navbar from '../componets/Navbar/Navbar'
 import hadset from '../componets/Asserts/images/Headsets_.jpeg'
 import './Signin.css'
+import { useNavigate } from 'react-router-dom';
 
 const SignIn = () => {
+
+    const navigate = useNavigate();
+
+    function signup() {
+        navigate('/signup')
+    }
+
     return (
         <div className='contact-form d-flex p-0 w-100'>
             <div className='img'> <img src={hadset} alt='img' /></div>
@@ -24,8 +32,8 @@ const SignIn = () => {
                     </div>
                 </form>
                 <div className='d-flex forgot'>
-                    <h5>forgot password?</h5>
-                    <h5>Don't have account?SignUp</h5>
+                    <p>forgot password?</p>
+                    <p>Don't have account?<span onClick={signup}>SignUp</span></p>
                 </div>
                 <div className='copyrights my-5'>
                     <p>copyrigts &copy; Harmoni 2023 </p>

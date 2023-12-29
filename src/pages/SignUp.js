@@ -1,12 +1,19 @@
 import React from 'react'
 import hadset from '../componets/Asserts/images/Headsets_.jpeg'
 import './SignUp.css'
+import { useNavigate } from 'react-router-dom'
 
 const SignUp = () => {
+    const navigate = useNavigate();
+
+    function signin() {
+        navigate('/signin')
+    }
+
     return (
         <div className='contact-form d-flex p-0 '>
             <img className='img' src={hadset} alt='img' />
-            <div className='contact'>
+            <div className='contact signup-form'>
                 <div className='icon'> <i class="fa-solid fa-lock"></i>
                 </div>
                 <h3>SignUp</h3>
@@ -40,7 +47,7 @@ const SignUp = () => {
                     </div>
                 </form>
                 <div className='d-flex forgot '>
-                    <p>Already have an account?SignIn</p>
+                    <p>Already have an account? <span onClick={signin}>SignIn</span></p>
                 </div>
             </div>
         </div>

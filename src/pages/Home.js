@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Navbar from '../componets/Navbar/Navbar'
 import people from '../componets/Asserts/people.png'
 import Hero from '../componets/Hero/Hero'

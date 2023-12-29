@@ -4,8 +4,16 @@ import img1 from '../componets/Asserts/images/event/3.event-grid.jpg'
 import img2 from '../componets/Asserts/images/event/4.event-grid.jpg'
 import img3 from '../componets/Asserts/images/event/5.event-grid.jpg'
 import img4 from '../componets/Asserts/images/event/7.event-grid.jpg'
+import { useNavigate } from 'react-router-dom'
 
 const Events = () => {
+
+    const navigate = useNavigate()
+
+    function wedding() {
+        navigate('/events/wedding')
+    }
+
     return (
         <>
             <div className='contact-hero'>
@@ -25,12 +33,12 @@ const Events = () => {
                 <div className='container'>
                     <div className='row row-cols-3'>
                         <div className='col'>
-                            <div className='card'>
+                            <div className='card' >
                                 <div className='card-img-top'>
                                     <img src={img1} alt='hii' />
                                 </div>
                                 <div className='card-title'>
-                                    <p className='text-center'>Wedding</p>
+                                    <p className='text-center' onClick={wedding}>Wedding</p>
                                 </div>
                             </div>
                             <div className='card'>

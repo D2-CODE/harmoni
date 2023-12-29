@@ -91,3 +91,48 @@
     color: white;
     text-align: center;
 }
+
+
+@media (max-width:1225px) {
+    .footer .footer-title h1 span {
+        font-size: 3.5rem;
+        line-height: 100%;
+    }
+
+    .footer .footer-title h1 {
+        font-size: 2.8rem;
+        line-height: 100%;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .footer .footer-title h1 span {
+        font-size: 1.4rem;
+        line-height: 100%;
+    }
+
+    .footer .footer-title h1 {
+        font-size: 1.4rem;
+        line-height: 100%;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+
+    .footer .footer-title button {
+        height: 40px;
+        width: 150px;
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    .footer .footer-menu {
+        font-size: 0.7rem;
+    }
+
+    .footer .footer-menu .sub-menu {
+        margin-top: 50px;
+    }
+}
