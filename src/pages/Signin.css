@@ -1,4 +1,4 @@
-/* .contact-form {
+.SignIn-form {
     background-image: linear-gradient(130deg,
             hsl(240deg 75% 32%) 0%,
             hsl(241deg 74% 29%) 3%,
@@ -10,39 +10,67 @@
             hsl(247deg, 67%, 18%) 38%,
             hsl(254deg, 66%, 15%) 59%,
             hsl(261deg, 70%, 16%) 100%);
-    padding-top: 2%;
+    /* padding-top: 2%; */
     padding-bottom: 2%;
     padding-top: 0;
-} */
+    justify-content: center;
+}
 
-.contact {
-    width: 30%;
+.SignIn {
+    width: 50%;
     /* border: 2px solid red; */
     /* padding: 2%; */
     background-color: white
 }
 
-.contact h3 {
+.SignIn h3 {
     letter-spacing: 4px;
 }
 
-.contact-form .img {
-    width: 80%;
+.SignIn-form .img {
+    width: 50%;
 }
 
-.contact-form .img img {
+.SignIn-form .img img {
     width: 100%;
     height: 700px;
 }
 
-.contact-form .contact {
+.SignIn-form .SignIn {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.contact-form .contact .icon i {
+
+.SignIn .form {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.SignIn .form .main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.SignIn .form button {
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 40%;
+}
+
+.remember {
+    width: 100%;
+}
+
+.SignIn-form .SignIn .icon i {
     font-size: 0.9rem;
     height: 100%;
     padding: 15px;
@@ -51,12 +79,63 @@
     background-color: rgb(154, 30, 255);
 }
 
-.forgot {
-    justify-content: space-between;
+.SignIn .forgot {
+    justify-content: space-evenly;
     /* gap: 60px; */
     width: 98%;
 }
 
 .copyrights {
     color: rgba(71, 72, 72, 0.816);
+}
+
+
+@media (max-width:930px) {
+    .SignIn-form .img {
+        display: none;
+    }
+
+    .SignIn {
+        /* width: 100%; */
+        width: auto;
+        padding: 10%;
+    }
+
+    .SignIn .form .main-form {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        margin: 0;
+        /* width: auto; */
+    }
+
+    .SignIn button {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .forgot {
+        flex-direction: column;
+    }
+
+    .forgot p {
+        width: auto;
+    }
+}
+
+@media (max-width:480px) {
+
+    .SignIn {
+        width: 100%;
+    }
+
+    .SignIn .form {
+        width: 100%;
+    }
 }

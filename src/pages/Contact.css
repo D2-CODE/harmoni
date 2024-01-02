@@ -133,9 +133,14 @@
     }
 }
 
-@media (max-width:440px) {
+@media (max-width:480px) {
     .contact {
-        width: auto;
+        width: 100%;
         border-radius: 10px;
+    }
+
+    .contact form div {
+        width: 100%;
+        margin: 0px !important;
     }
 }

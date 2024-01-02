@@ -13,22 +13,22 @@ const SignIn = () => {
     }
 
     return (
-        <div className='contact-form d-flex p-0 w-100'>
+        <div className='SignIn-form d-flex p-0 w-100'>
             <div className='img'> <img src={hadset} alt='img' /></div>
-            <div className='contact '>
+            <div className='SignIn '>
                 <div className='icon'> <i class="fa-solid fa-lock"></i>
                 </div>
                 <h3>SignIn</h3>
-                <form className='form w-100 mb-3'>
-                    <div className='m-1'>
-                        <input type="text" placeholder="Email Address*" className='form-control form-control-lg m-3' required='true' />
-                        <input class="form-control form-control-lg m-3" type="password" placeholder="Password*" aria-label=".form-control-lg example"></input>
-                        <div class="form-check m-3">
+                <form className='form mb-3'>
+                    <div className='m-1 main-form'>
+                        <input type="text" placeholder="Email Address*" className='form-control form-control-lg mb-3' required='true' />
+                        <input class="form-control form-control-lg " type="password" placeholder="Password*" aria-label=".form-control-lg example"></input>
+                        <div class="form-check m-3 remember">
                             <label class="form-check-label">
                                 <input class="form-check-input" type="checkbox" name="remember" /> Remember me
                             </label>
                         </div>
-                        <button type="button" class="btn btn-primary btn-block w-100 m-3">SignIn</button>
+                        <button type="button" class="btn btn-primary">SignIn</button>
                     </div>
                 </form>
                 <div className='d-flex forgot'>

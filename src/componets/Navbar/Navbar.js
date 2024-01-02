@@ -18,11 +18,17 @@ const Navbar = () => {
             </div>
             <div className={showMenu ? 'nav-links mobile-menu-link' : 'nav-links'}>
                 <ul>
-                    <li><Link style={{ textDecoration: 'none', color: 'white' }} to='/'>Home</Link></li>
-                    <li><Link style={{ textDecoration: 'none', color: 'white' }} to='/about'>About</Link></li>
-                    <li><Link style={{ textDecoration: 'none', color: 'white' }} to='/events'>Events</Link></li>
-                    <li><Link style={{ textDecoration: 'none', color: 'white' }} to='/gallary'>Gallary</Link></li>
-                    <li><Link style={{ textDecoration: 'none', color: 'white' }} to='/contact'>Contact</Link></li>
+                    <li onClick={() => setShowMenu(!showMenu)}><Link style={{ textDecoration: 'none', color: 'white' }} to='/'>Home</Link></li>
+                    <li onClick={() => setShowMenu(!showMenu)}><Link style={{ textDecoration: 'none', color: 'white' }} to='/about'>About</Link></li>
+                    <li onClick={() => setShowMenu(!showMenu)}><Link style={{ textDecoration: 'none', color: 'white' }} to='/events'>Events</Link></li>
+                    <li onClick={() => setShowMenu(!showMenu)}><Link style={{ textDecoration: 'none', color: 'white' }} to='/gallary'>Gallary</Link></li>
+                    <li onClick={() => setShowMenu(!showMenu)}><Link style={{ textDecoration: 'none', color: 'white' }} to='/contact'>Contact</Link></li>
+                    <li onClick={() => setShowMenu(!showMenu)}><div className='in-nav'>
+                        <Link to='/signin'><button>
+                            <i class="fa-sharp fa-solid fa-arrow-right-to-bracket"></i>
+                            SignIn<img src={dArro} alt='img' /></button></Link>
+
+                    </div></li>
                 </ul>
             </div>
 
